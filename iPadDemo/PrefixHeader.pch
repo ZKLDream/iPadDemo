@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  iPadDemo
+//
+//  Created by Chaosky on 16/3/24.
+//  Copyright © 2016年 1000phone. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define LimitFreeURL @"http://www.1000phone.net:8088/app/iAppFree/api/limited.php?page=%ld&number=20"
+
+#define AppDetailURL @"http://iappfree.candou.com:8080/free/applications/%@?currency=rmb"
+//通知传值
+#define MasterToDetailNotfication @"MasterToDetailNotfication"
+
+#endif /* PrefixHeader_pch */
